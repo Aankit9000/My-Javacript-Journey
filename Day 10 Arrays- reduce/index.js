@@ -20,3 +20,5 @@ console.log(output)
 // output = { '14': 1, '24': 2, '70': 1 }
 // Learned how to use an object inside an array
 // learned more about the reduce function
+const firstNameOutput = users.filter((x) => x.age < 30).map((x) => x.firstName);
+console.log(firstNameOutput);
