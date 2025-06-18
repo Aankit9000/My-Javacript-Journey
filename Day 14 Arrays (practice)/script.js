@@ -1,0 +1,5 @@
+console.log("Javascript initializing..");
+let arr = [1,2,3,4,5,6,7]
+let arr2 = arr.slice(0,2);
+console.log(arr2);
+console.log(arr)
